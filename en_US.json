@@ -1,0 +1,162 @@
+{
+  "commonServerDetails": {
+    "connect": "Connect",
+    "keyType": "Key Type",
+    "status": {
+      "offline": "Offline",
+      "online": "Online",
+      "signedIn": "Signed In",
+      "signedOut": "Signed Out"
+    }
+  },
+  "modalActions": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "close": "Close"
+  },
+  "getStarted": "Get Started",
+  "navigation": {
+    "servers": {
+      "offline": "@:commonServerDetails.status.offline Servers",
+      "online": "@:commonServerDetails.status.online Servers"
+    },
+    "userActions": {
+      "signIn": "Sign In",
+      "signOut": "Sign Out",
+      "signUp": "Sign Up"
+    }
+  },
+  "pages": {
+    "dashboard": {
+      "mainHeading": "My Servers",
+      "signedInServerHeading": "@:commonServerDetails.status.signedIn Servers",
+      "unregisteredServerHeading": "%{number} License Keys Not Registered With Connect"
+    },
+    "iframe": {
+      "heading": "Manage Server",
+      "useExternal": "New Window",
+      "useIframe": "Manage",
+      "closeIFrame": "Close Management View",
+      "closeIFrameNote": "Are you sure you wish to close this page? All unsaved progress will be lost."
+    },
+    "keys": {
+      "mainHeading": "My Keys",
+      "mainSubheading": "Use this page to download license keys for your active and inactive servers. These can be used to transfer Unraid to a new flash drive and view all copies of Unraid registered to your email.",
+      "signedInKeysHeading": "@:commonServerDetails.status.signedIn Keys (Servers are currently signed in to Connect)",
+      "signedOutKeysHeading": "@:commonServerDetails.status.signedOut Keys (Possibly available for use on other servers)."
+    },
+    "loading": {
+      "mainHeading": "Loading"
+    },
+    "account": {
+      "mainHeading": "Account Management",
+      "manageButton": "Manage Account (account.unraid.net)"
+    },
+    "headerOptions": {
+      "title": "Configure Header for %{name}",
+      "description": "Set the header image in your servers Web GUI at [Settings → Display Settings → Show banner (set to Yes) → Custom banner (upload your image)].",
+      "myUnraidDescription": "To use a custom image for your server, the server must be accessible through a myunraid.net domain.",
+      "headerUrlLinkDescription": "Click the link below to try to navigate to the display settings page using the last available server URL",
+      "headerCachedContainerDescription": "Header images are cached once loaded and will not be refreshed until you click the button below.",
+      "buttonRefresh": "Refresh Header Image",
+      "refreshConfirmTitle": "%{name}: Successfully Refreshed Header Image",
+      "refreshFailureTitle": "%{name}: Failed to Refresh Header Image",
+      "refreshFailureBody": "Could not fetch a header image for this server, are you sure it has one set and is online"
+    }
+  },
+  "widgets": {
+    "dashboardCard": {
+      "buttons": {
+        "detailsServer": "Details",
+        "manageServer": "Manage"
+      },
+      "showingCachedData": "Showing Cached Values",
+      "uptime": "Uptime: {uptime} days"
+    },
+    "flashBackup": {
+      "date": "Last Flash Backup: {date}",
+      "description": {
+        "default": "Once generated the download link will expire in 60 seconds.",
+        "error": "Error generating flash backup",
+        "loading": "Generating flash backup… | Wow you made it go faster…🚅 | Click again for hyperspeed…",
+        "success": "Your download zip should have automatically downloaded. But you can download again if needed.\nDownload link expires at {downloadExpireTime}.\nOnce expired just click the button again to Generate a new download link."
+      },
+      "title": {
+        "default": "Generate Backup",
+        "error": "Error Generating Flash Backup",
+        "loading": "Generating…please wait…",
+        "success": "Re-download Flash Backup"
+      },
+      "disabled": "Flash Backup Disabled"
+    },
+    "managementCard": {
+      "title": "@:pages.iframe.heading",
+      "description": "Click to manage your server",
+      "accessibleUrls": "Accessible URLs",
+      "accessibleUrlsHelp": "These URLs are currently accessible from your location. This means they are using a myunraid.net cerificate, and are running the latest Unraid Connect plugin.",
+      "inaccessibleUrls": "Inaccessible URLs",
+      "inaccessibleUrlsHelp": "These URLs are currently inaccessible from your location. This means they may be offline, not using a myunraid.net certificate, or are inaccessible from your current location. These URLs may still allow access to the server, however.",
+      "tooltip": {
+        "heading": "Url Details",
+        "type": "Type",
+        "name": "Name"
+      }
+    },
+    "overviewCard": {
+      "title": "{name} overview"
+    },
+    "storageCard": {
+      "title": "Storage",
+      "free": "Free",
+      "used": "Used"
+    },
+    "virtualMachinesCard": {
+      "title": "Virtual Machines",
+      "started": "Started",
+      "installed": "Installed"
+    },
+    "dockerCard": { 
+      "title": "Docker Apps",
+      "started": "@:widgets.virtualMachinesCard.started",
+      "installed": "@:widgets.virtualMachinesCard.installed"
+    },
+    "licenseKeyCard": {
+      "title": "License Key",
+      "downloadLicenseKey": "Download License Key"
+    },
+    "dynamicRemoteAccessCard": {
+      "title": "Dynamic Remote Access (alpha)",
+      "statusDisabled": "Currently Disabled",
+      "statusEnabled": "Active: %{version}",
+      "enable": "Start Remote Access",
+      "disable": "Stop Remote Access",
+      "loadingEnable": "Enabling Remote Access...",
+      "loadingDisable": "Disabling Remote Access...",
+      "disableRemoteAccessNote": "Unraid will disallow remote access as soon as this action completes.",
+      "mayNotDisableImmediatelyTooltip": "When using UPNP Remote Access, it may take a few minutes for your router to remove the lease.",
+      "noteUpnp": "Note: @:widgets.dynamicRemoteAccessCard.disableRemoteAccessNote @:widgets.dynamicRemoteAccessCard.mayNotDisableImmediatelyTooltip",
+      "noteOther": "Note: @:widgets.dynamicRemoteAccessCard.disableRemoteAccessNote",
+      "isNotNecessary": "Dynamic Remote Access is not required for this server to be managed from your current location."
+    }
+  },
+  "sidebar": {
+    "open": "Open Sidebar",
+    "close": "Close Sidebar"
+  },
+  "routes": {
+    "external": {
+      "account": "Manage Account",
+      "forums": "Unraid Forums",
+      "home": "Unraid Home",
+      "docs": "Unraid Docs"
+    },
+    "internal": {
+      "serverDetails": "Server Details",
+      "serverManagement": "Server Management",
+      "myAccount": "My Account",
+      "signIn": "Unraid Connect",
+      "myKeys": "My Keys",
+      "dashboard": "Dashboard"
+    }
+  }
+}

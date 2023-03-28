@@ -1,0 +1,111 @@
+{
+  "commonServerDetails": {
+    "connect": "连接",
+    "keyType": "按键类型",
+    "status": {
+      "offline": "离线",
+      "online": "在线的",
+      "signedIn": "登录",
+      "signedOut": "退出"
+    }
+  },
+  "getStarted": "开始",
+  "navigation": {
+    "servers": {
+      "offline": "@:commonServerDetails.status.offline 服务器",
+      "online": "@:commonServerDetails.status.online 服务器"
+    }
+  },
+  "pages": {
+    "dashboard": {
+      "mainHeading": "我的服务器",
+      "signedInServerHeading": "@:commonServerDetails.status.signedIn 服务器",
+      "signedOutServerHeading": "@:commonServerDetails.status.signedOut 服务器"
+    },
+    "iframe": {
+      "heading": "管理服务器",
+      "useExternal": "新窗户",
+      "useIframe": "框架"
+    },
+    "keys": {
+      "mainHeading": "我的钥匙",
+      "mainSubheading": "使用此页面下载活动和非活动服务器的许可证密钥。\n这些可用于将 Unraid 传输到新的闪存驱动器，并查看注册到您的电子邮件中的所有 Unraid 副本。",
+      "signedInKeysHeading": "@:commonServerDetails.status.signedIn 密钥（服务器当前已登录到 Connect）",
+      "signedOutKeysHeading": "@:commonServerDetails.status.signedOut 密钥（可能可用于其他服务器）。"
+    },
+    "loading": {
+      "mainHeading": "加载中"
+    }
+  },
+  "widgets": {
+    "dashboardCard": {
+      "buttons": {
+        "detailsServer": "细节",
+        "manageServer": "管理"
+      },
+      "showingCachedData": "显示缓存值",
+      "uptime": "正常运行时间：{uptime} 天"
+    },
+    "flashBackup": {
+      "date": "日期：{日期}",
+      "description": {
+        "default": "一旦生成，下载链接将在 60 秒后过期。",
+        "error": "生成闪存备份时出错",
+        "loading": "正在生成闪存备份... |\n哇，你让它走得更快......🚅 |\n再次点击超高速……",
+        "success": "您的下载 zip 应该已自动下载。\n但如果需要，您可以重新下载。\n\n下载链接将于 {downloadExpireTime} 过期。\n\n一旦过期，只需再次单击按钮即可生成新的下载链接。"
+      },
+      "title": {
+        "default": "生成备份",
+        "error": "生成闪存备份时出错",
+        "loading": "正在生成……请稍候……",
+        "success": "重新下载闪存备份"
+      },
+      "disabled": "闪存备份已禁用"
+    },
+    "dockerCard": {
+      "installed": "@:widgets.virtualMachinesCard.installed",
+      "started": "@:widgets.virtualMachinesCard.started",
+      "title": "码头工人应用程序"
+    },
+    "licenseKeyCard": {
+      "title": "注册码",
+      "downloadLicenseKey": "下载许可证密钥"
+    },
+    "managementCard": {
+      "description": "单击以管理您的服务器",
+      "title": "@:pages.iframe.heading"
+    },
+    "overviewCard": {
+      "title": "概述"
+    },
+    "storageCard": {
+      "free": "自由的",
+      "title": "贮存",
+      "used": "用过的"
+    },
+    "virtualMachinesCard": {
+      "installed": "已安装",
+      "started": "开始",
+      "title": "虚拟机"
+    }
+  },
+  "routes": {
+    "external": {
+      "forums": "论坛",
+      "home": "家",
+      "docs": ""
+    },
+    "internal": {
+      "dashboard": "仪表板",
+      "myAccount": "我的帐户",
+      "myKeys": "我的钥匙",
+      "serverDetails": "服务器详情",
+      "serverManagement": "服务器管理",
+      "signIn": "Unraid连接"
+    }
+  },
+  "sidebar": {
+    "close": "关闭边栏",
+    "open": "打开边栏"
+  }
+}
