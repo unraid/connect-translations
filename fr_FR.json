@@ -1,111 +1,125 @@
 {
-  "commonServerDetails": {
-    "connect": "Relier",
-    "keyType": "Type de clé",
-    "status": {
-      "offline": "Hors ligne",
-      "online": "En ligne",
-      "signedIn": "Connecté",
-      "signedOut": "Se déconnecter"
-    }
-  },
-  "pages": {
-    "dashboard": {
-      "signedOutServerHeading": "@:commonServerDetails.status.signedOut Serveurs",
-      "signedInServerHeading": "@:commonServerDetails.status.signedIn Serveurs",
-      "mainHeading": "Mes serveurs"
-    },
-    "iframe": {
-      "heading": "Gérer le serveur",
-      "useExternal": "Nouvelle fenetre",
-      "useIframe": "iFrame"
-    },
-    "keys": {
-      "mainHeading": "Mes clés",
-      "mainSubheading": "Utilisez cette page pour télécharger les clés de licence pour vos serveurs actifs et inactifs. \nCeux-ci peuvent être utilisés pour transférer Unraid sur un nouveau lecteur flash et afficher toutes les copies d'Unraid enregistrées sur votre adresse e-mail.",
-      "signedInKeysHeading": "@:commonServerDetails.status.signedIn Keys (Les serveurs sont actuellement connectés à Connect)",
-      "signedOutKeysHeading": "@:commonServerDetails.status.signedOut Keys (Possiblement disponible pour une utilisation sur d'autres serveurs)."
-    },
-    "loading": {
-      "mainHeading": "Chargement"
-    }
-  },
-  "getStarted": "Commencer",
-  "navigation": {
-    "servers": {
-      "offline": "@:commonServerDetails.status.offline Serveurs",
-      "online": "@:commonServerDetails.status.online Serveurs"
-    }
-  },
   "widgets": {
-    "dashboardCard": {
-      "buttons": {
-        "detailsServer": "Détails",
-        "manageServer": "Faire en sorte"
-      },
-      "showingCachedData": "Affichage des valeurs mises en cache",
-      "uptime": "Disponibilité : {uptime} jours"
+    "dockerCard": {
+      "title": "",
+      "installed": "",
+      "started": ""
+    },
+    "dynamicRemoteAccessCard": {
+      "statusDisabled": "",
+      "statusEnabled": "",
+      "isNotNecessary": "",
+      "disable": "",
+      "noteUpnp": "",
+      "noteOther": "",
+      "loadingDisable": "",
+      "loadingEnable": "",
+      "enable": ""
     },
     "flashBackup": {
-      "date": "En date du : {date}",
-      "description": {
-        "default": "Une fois généré, le lien de téléchargement expirera dans 60 secondes.",
-        "error": "Erreur lors de la génération de la sauvegarde flash",
-        "loading": "Génération de la sauvegarde flash… | \nWow, vous l'avez fait aller plus vite… 🚅 | \nCliquez à nouveau pour l'hyperspeed…",
-        "success": "Votre zip de téléchargement devrait s'être téléchargé automatiquement. \nMais vous pouvez télécharger à nouveau si nécessaire.\n\nLe lien de téléchargement expire à {downloadExpireTime}.\n\nUne fois expiré, cliquez à nouveau sur le bouton pour générer un nouveau lien de téléchargement."
-      },
+      "disabled": "",
+      "date": "",
       "title": {
-        "default": "Générer une sauvegarde",
-        "error": "Erreur lors de la génération de la sauvegarde Flash",
-        "loading": "Génération… veuillez patienter…",
-        "success": "Re-télécharger Flash Backup"
+        "loading": "",
+        "error": "",
+        "success": "",
+        "default": ""
       },
-      "disabled": "Sauvegarde Flash désactivée"
-    },
-    "dockerCard": {
-      "installed": "@:widgets.virtualMachinesCard.installé",
-      "started": "@:widgets.virtualMachinesCard.started",
-      "title": "Applications Docker"
+      "description": {
+        "loading": "",
+        "error": "",
+        "success": "",
+        "default": ""
+      }
     },
     "licenseKeyCard": {
-      "title": "Clé de licence",
-      "downloadLicenseKey": "Télécharger la clé de licence"
+      "title": "",
+      "downloadLicenseKey": ""
     },
-    "managementCard": {
-      "description": "Cliquez pour gérer votre serveur",
-      "title": "@:pages.iframe.heading"
+    "dashboardCard": {
+      "showingCachedData": "",
+      "uptime": "",
+      "buttons": {
+        "manageServer": "",
+        "detailsServer": ""
+      }
     },
     "overviewCard": {
-      "title": "Aperçu"
+      "title": ""
+    },
+    "managementCard": {
+      "title": "",
+      "accessibleUrls": "",
+      "accessibleUrlsHelp": "",
+      "inaccessibleUrls": ""
     },
     "storageCard": {
-      "free": "Libre",
-      "title": "Stockage",
-      "used": "Utilisé"
+      "free": "",
+      "used": "",
+      "title": ""
     },
     "virtualMachinesCard": {
-      "installed": "installée",
-      "started": "A débuté",
-      "title": "Machines virtuelles"
+      "title": "",
+      "installed": "",
+      "started": ""
     }
   },
-  "routes": {
-    "external": {
-      "forums": "Forums",
-      "home": "Maison",
-      "docs": ""
+  "commonServerDetails": {
+    "status": {
+      "offline": "",
+      "online": ""
     },
-    "internal": {
-      "dashboard": "Tableau de bord",
-      "myAccount": "Mon compte",
-      "myKeys": "Mes clés",
-      "serverDetails": "Détails du serveur",
-      "serverManagement": "Gestion du serveur",
-      "signIn": "Connexion sans raid"
+    "keyType": "",
+    "connect": ""
+  },
+  "pages": {
+    "iframe": {
+      "useIframe": "",
+      "useExternal": "",
+      "closeIFrame": "",
+      "closeIFrameNote": ""
+    },
+    "headerOptions": {
+      "refreshFailureTitle": "",
+      "refreshFailureBody": "",
+      "refreshConfirmTitle": "",
+      "title": "",
+      "description": "",
+      "myUnraidDescription": "",
+      "headerUrlLinkDescription": "",
+      "headerCachedContainerDescription": "",
+      "buttonRefresh": ""
+    },
+    "account": {
+      "mainHeading": "",
+      "manageButton": ""
+    },
+    "dashboard": {
+      "mainHeading": "",
+      "signedInServerHeading": "",
+      "unregisteredServerHeading": ""
+    },
+    "keys": {
+      "mainHeading": "",
+      "mainSubheading": "",
+      "signedOutKeysHeading": "",
+      "signedInKeysHeading": ""
+    },
+    "loading": {
+      "mainHeading": ""
     }
+  },
+  "modalActions": {
+    "confirm": "",
+    "close": ""
   },
   "sidebar": {
-    "close": "Fermer la barre latérale",
-    "open": "Ouvrir la barre latérale"
+    "open": ""
+  },
+  "navigation": {
+    "userActions": {
+      "signIn": "",
+      "signUp": ""
+    }
   }
 }

@@ -115,7 +115,7 @@
       "started": "Started",
       "installed": "Installed"
     },
-    "dockerCard": { 
+    "dockerCard": {
       "title": "Docker Apps",
       "started": "@:widgets.virtualMachinesCard.started",
       "installed": "@:widgets.virtualMachinesCard.installed"

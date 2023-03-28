@@ -1,110 +1,125 @@
 {
-  "commonServerDetails": {
-    "connect": "Verbinden",
-    "keyType": "Schlüsselart",
-    "status": {
-      "offline": "Offline",
-      "online": "Online",
-      "signedIn": "Angemeldet",
-      "signedOut": "Abgemeldet"
-    }
-  },
-  "getStarted": "Loslegen",
-  "navigation": {
-    "servers": {
-      "offline": "@:commonServerDetails.status.offline Server",
-      "online": "@:commonServerDetails.status.online Server"
-    }
-  },
-  "pages": {
-    "dashboard": {
-      "mainHeading": "Meine Server",
-      "signedInServerHeading": "@:commonServerDetails.status.signedIn Server",
-      "signedOutServerHeading": "@:commonServerDetails.status.signedOut-Server"
-    },
-    "iframe": {
-      "heading": "Server verwalten",
-      "useExternal": "Neues Fenster",
-      "useIframe": "iFrame"
-    },
-    "keys": {
-      "mainHeading": "Meine Schlüssel",
-      "mainSubheading": "Verwenden Sie diese Seite, um Lizenzschlüssel für Ihre aktiven und inaktiven Server herunterzuladen. \nDiese können verwendet werden, um Unraid auf ein neues Flash-Laufwerk zu übertragen und alle Kopien von Unraid anzuzeigen, die in Ihrer E-Mail registriert sind.",
-      "signedInKeysHeading": "@:commonServerDetails.status.signedIn Keys (Server sind derzeit bei Connect angemeldet)",
-      "signedOutKeysHeading": "@:commonServerDetails.status.signedOut Keys (Möglicherweise zur Verwendung auf anderen Servern verfügbar)."
-    },
-    "loading": {
-      "mainHeading": "Wird geladen"
-    }
-  },
   "widgets": {
-    "dashboardCard": {
-      "buttons": {
-        "detailsServer": "Einzelheiten",
-        "manageServer": "Verwalten"
-      },
-      "showingCachedData": "Zwischengespeicherte Werte anzeigen",
-      "uptime": "Betriebszeit: {Betriebszeit} Tage"
+    "dockerCard": {
+      "title": "",
+      "installed": "",
+      "started": ""
+    },
+    "dynamicRemoteAccessCard": {
+      "statusDisabled": "",
+      "statusEnabled": "",
+      "isNotNecessary": "",
+      "disable": "",
+      "noteUpnp": "",
+      "noteOther": "",
+      "loadingDisable": "",
+      "loadingEnable": "",
+      "enable": ""
     },
     "flashBackup": {
-      "date": "Datum: {date}",
-      "description": {
-        "default": "Nach der Generierung läuft der Download-Link in 60 Sekunden ab.",
-        "error": "Fehler beim Generieren der Flash-Sicherung",
-        "loading": "Flash-Sicherung wird erstellt… | \nWow, du hast es schneller gemacht…🚅 | \nKlicken Sie erneut für Hyperspeed…",
-        "success": "Ihr Download-Zip sollte automatisch heruntergeladen worden sein. \nSie können es aber bei Bedarf erneut herunterladen.\n\nDer Download-Link läuft um {downloadExpireTime} ab.\n\nEinmal abgelaufen, klicken Sie einfach erneut auf die Schaltfläche, um einen neuen Download-Link zu generieren."
-      },
+      "disabled": "",
+      "date": "",
       "title": {
-        "default": "Sicherungskopie erstellen",
-        "error": "Fehler beim Generieren der Flash-Sicherung",
-        "loading": "Generieren… bitte warten…",
-        "success": "Laden Sie Flash Backup erneut herunter"
+        "loading": "",
+        "error": "",
+        "success": "",
+        "default": ""
       },
-      "disabled": "Flash-Sicherung deaktiviert"
-    },
-    "dockerCard": {
-      "installed": "@:widgets.virtualMachinesCard.installiert",
-      "started": "@:widgets.virtualMachinesCard.started",
-      "title": "Docker-Apps"
+      "description": {
+        "loading": "",
+        "error": "",
+        "success": "",
+        "default": ""
+      }
     },
     "licenseKeyCard": {
-      "title": "Lizenzschlüssel",
-      "downloadLicenseKey": "Lizenzschlüssel herunterladen"
+      "title": "",
+      "downloadLicenseKey": ""
     },
-    "managementCard": {
-      "description": "Klicken Sie hier, um Ihren Server zu verwalten",
-      "title": "@:pages.iframe.heading"
+    "dashboardCard": {
+      "showingCachedData": "",
+      "uptime": "",
+      "buttons": {
+        "manageServer": "",
+        "detailsServer": ""
+      }
     },
     "overviewCard": {
-      "title": "Überblick"
+      "title": ""
+    },
+    "managementCard": {
+      "title": "",
+      "accessibleUrls": "",
+      "accessibleUrlsHelp": "",
+      "inaccessibleUrls": ""
     },
     "storageCard": {
-      "free": "Frei",
-      "title": "Lagerung",
-      "used": "Gebraucht"
+      "free": "",
+      "used": "",
+      "title": ""
     },
     "virtualMachinesCard": {
-      "installed": "Eingerichtet",
-      "started": "Gestartet",
-      "title": "Virtuelle Maschinen"
+      "title": "",
+      "installed": "",
+      "started": ""
     }
   },
-  "routes": {
-    "external": {
-      "forums": "Foren",
-      "home": "Heim"
+  "commonServerDetails": {
+    "status": {
+      "offline": "",
+      "online": ""
     },
-    "internal": {
-      "dashboard": "Armaturenbrett",
-      "myAccount": "Mein Konto",
-      "myKeys": "Meine Schlüssel",
-      "serverDetails": "Serverdetails",
-      "serverManagement": "Serververwaltung",
-      "signIn": "Unraid Connect"
+    "keyType": "",
+    "connect": ""
+  },
+  "pages": {
+    "iframe": {
+      "useIframe": "",
+      "useExternal": "",
+      "closeIFrame": "",
+      "closeIFrameNote": ""
+    },
+    "headerOptions": {
+      "refreshFailureTitle": "",
+      "refreshFailureBody": "",
+      "refreshConfirmTitle": "",
+      "title": "",
+      "description": "",
+      "myUnraidDescription": "",
+      "headerUrlLinkDescription": "",
+      "headerCachedContainerDescription": "",
+      "buttonRefresh": ""
+    },
+    "account": {
+      "mainHeading": "",
+      "manageButton": ""
+    },
+    "dashboard": {
+      "mainHeading": "",
+      "signedInServerHeading": "",
+      "unregisteredServerHeading": ""
+    },
+    "keys": {
+      "mainHeading": "",
+      "mainSubheading": "",
+      "signedOutKeysHeading": "",
+      "signedInKeysHeading": ""
+    },
+    "loading": {
+      "mainHeading": ""
     }
+  },
+  "modalActions": {
+    "confirm": "",
+    "close": ""
   },
   "sidebar": {
-    "close": "Seitenleiste schließen",
-    "open": "Seitenleiste öffnen"
+    "open": ""
+  },
+  "navigation": {
+    "userActions": {
+      "signIn": "",
+      "signUp": ""
+    }
   }
 }
