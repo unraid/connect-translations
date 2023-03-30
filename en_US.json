@@ -9,6 +9,13 @@
       "signedOut": "Signed Out"
     }
   },
+  "unit": {
+    "h": "hour | hours",
+    "m": "minute | minutes",
+    "s": "second | seconds",
+    "d": "day | days",
+    "y": "year | years"
+  },
   "modalActions": {
     "confirm": "Confirm",
     "cancel": "Cancel",
@@ -62,6 +69,10 @@
       "refreshConfirmTitle": "%{name}: Successfully Refreshed Header Image",
       "refreshFailureTitle": "%{name}: Failed to Refresh Header Image",
       "refreshFailureBody": "Could not fetch a header image for this server, are you sure it has one set and is online"
+    },
+    "notFound": {
+      "mainHeading": "Page Not Found",
+      "mainSubheading": "This Page Could Not Be Found"
     }
   },
   "widgets": {
@@ -71,7 +82,7 @@
         "manageServer": "Manage"
       },
       "showingCachedData": "Showing Cached Values",
-      "uptime": "Uptime: {uptime} days"
+      "uptime": "Uptime: {uptime}"
     },
     "flashBackup": {
       "date": "Last Flash Backup: {date}",
@@ -148,7 +159,8 @@
       "account": "Manage Account",
       "forums": "Unraid Forums",
       "home": "Unraid Home",
-      "docs": "Unraid Docs"
+      "docs": "Unraid Docs",
+      "deepLink": "View in Unraid"
     },
     "internal": {
       "serverDetails": "Server Details",
