@@ -71,8 +71,7 @@
       "refreshFailureBody": "Could not fetch a header image for this server, are you sure it has one set and is online"
     },
     "notFound": {
-      "mainHeading": "Page Not Found",
-      "mainSubheading": "This Page Could Not Be Found"
+      "mainHeading": "This Page Could Not Be Found"
     }
   },
   "widgets": {
@@ -163,6 +162,7 @@
       "deepLink": "View in Unraid"
     },
     "internal": {
+      "notFound": "Page Not Found",
       "serverDetails": "Server Details",
       "serverManagement": "Server Management",
       "myAccount": "My Account",
