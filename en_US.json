@@ -81,15 +81,15 @@
         "manageServer": "Manage"
       },
       "showingCachedData": "Showing Cached Values",
-      "uptime": "Uptime: {uptime}"
+      "uptime": "Uptime: %{uptime}"
     },
     "flashBackup": {
-      "date": "Last Flash Backup: {date}",
+      "date": "Last Flash Backup: %{date}",
       "description": {
         "default": "Once generated the download link will expire in 60 seconds.",
         "error": "Error generating flash backup",
         "loading": "Generating flash backup… | Wow you made it go faster…🚅 | Click again for hyperspeed…",
-        "success": "Your download zip should have automatically downloaded. But you can download again if needed.\nDownload link expires at {downloadExpireTime}.\nOnce expired just click the button again to Generate a new download link."
+        "success": "Your download zip should have automatically downloaded. But you can download again if needed.\nDownload link expires at %{downloadExpireTime}.\nOnce expired just click the button again to get a new download link."
       },
       "title": {
         "default": "Generate Backup",
@@ -106,6 +106,7 @@
       "accessibleUrlsHelp": "These URLs are currently accessible from your location. This means they are using a myunraid.net cerificate, and are running the latest Unraid Connect plugin.",
       "inaccessibleUrls": "Inaccessible URLs",
       "inaccessibleUrlsHelp": "These URLs are currently inaccessible from your location. This means they may be offline, not using a myunraid.net certificate, or are inaccessible from your current location. These URLs may still allow access to the server, however.",
+      "noUrls": "No URLs available for this server. Please make sure the Connect plugin is running and the server is fully signed in.",
       "tooltip": {
         "heading": "Url Details",
         "type": "Type",
