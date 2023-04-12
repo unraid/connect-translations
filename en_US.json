@@ -72,6 +72,18 @@
     },
     "notFound": {
       "mainHeading": "This Page Could Not Be Found"
+    },
+    "gettingStarted": {
+      "mainHeading": "Getting Started",
+      "firstStepsHeading": "Adding a Server to Unraid Connect",
+      "firstStepsContent": {
+        "stepOne": "Download Connect from Community Apps",
+        "stepTwo": "Sign In With Your Unraid.net Credentials",
+        "stepTwoSubheading": "Click the top right corner of your Unraid server, and click Sign In. Follow the prompts to sign in with your Unraid.net credentials, or create a new account.",
+        "stepThree": "Register Your Server with Unraid Connect by following the prompts",
+        "stepFour": "Come Back to This Page and Click Continue"
+      },
+      "helpfulLinksHeading": "Helpful Links"
     }
   },
   "widgets": {
@@ -86,7 +98,7 @@
     "flashBackup": {
       "date": "Last Flash Backup: %{date}",
       "description": {
-        "default": "Once generated the download link will expire in 60 seconds.",
+        "default": "Click the button to download a flash backup for this server. You can restore this backup by copying the files onto your boot drive. Once generated the download link will expire in 60 seconds.",
         "error": "Error generating flash backup",
         "loading": "Generating flash backup… | Wow you made it go faster…🚅 | Click again for hyperspeed…",
         "success": "Your download zip should have automatically downloaded. But you can download again if needed.\nDownload link expires at %{downloadExpireTime}.\nOnce expired just click the button again to get a new download link."
@@ -102,7 +114,7 @@
     "managementCard": {
       "title": "@:pages.iframe.heading",
       "description": "Click to manage your server",
-      "accessibleUrls": "Accessible URLs",
+      "accessibleUrls": "Manage in Connect | Accessible URLs",
       "accessibleUrlsHelp": "These URLs are currently accessible from your location. This means they are using a myunraid.net cerificate, and are running the latest Unraid Connect plugin.",
       "inaccessibleUrls": "Inaccessible URLs",
       "inaccessibleUrlsHelp": "These URLs are currently inaccessible from your location. This means they may be offline, not using a myunraid.net certificate, or are inaccessible from your current location. These URLs may still allow access to the server, however.",
@@ -128,6 +140,7 @@
     },
     "dockerCard": {
       "title": "Docker Apps",
+      "containerListTitle": "Containers",
       "started": "@:widgets.virtualMachinesCard.started",
       "installed": "@:widgets.virtualMachinesCard.installed"
     },
@@ -160,16 +173,19 @@
       "forums": "Unraid Forums",
       "home": "Unraid Home",
       "docs": "Unraid Docs",
-      "deepLink": "View in Unraid"
+      "deepLink": "View in Unraid",
+      "discord": "Unraid Discord"
     },
     "internal": {
       "notFound": "Page Not Found",
       "serverDetails": "Server Details",
       "serverManagement": "Server Management",
       "myAccount": "My Account",
-      "signIn": "Unraid Connect",
+      "signIn": "Sign In / Sign Up",
       "myKeys": "My Keys",
-      "dashboard": "Dashboard"
+      "dashboard": "Dashboard",
+      "authorizing": "Loading User",
+      "gettingStarted": "Getting Started"
     }
   }
 }
