@@ -1,125 +1,155 @@
 {
   "widgets": {
     "dockerCard": {
-      "title": "",
-      "installed": "",
-      "started": ""
+      "title": null,
+      "installed": null,
+      "started": null,
+      "containerListTitle": null
     },
     "dynamicRemoteAccessCard": {
-      "statusDisabled": "",
-      "statusEnabled": "",
-      "isNotNecessary": "",
-      "disable": "",
-      "noteUpnp": "",
-      "noteOther": "",
-      "loadingDisable": "",
-      "loadingEnable": "",
-      "enable": ""
+      "statusDisabled": null,
+      "statusEnabled": null,
+      "isNotNecessary": null,
+      "disable": null,
+      "noteUpnp": null,
+      "noteOther": null,
+      "loadingDisable": null,
+      "loadingEnable": null,
+      "enable": null
     },
     "flashBackup": {
-      "disabled": "",
-      "date": "",
+      "disabled": null,
+      "date": null,
       "title": {
-        "loading": "",
-        "error": "",
-        "success": "",
-        "default": ""
+        "loading": null,
+        "error": null,
+        "success": null,
+        "default": null
       },
       "description": {
-        "loading": "",
-        "error": "",
-        "success": "",
-        "default": ""
+        "loading": null,
+        "error": null,
+        "success": null,
+        "default": null
       }
     },
     "licenseKeyCard": {
-      "title": "",
-      "downloadLicenseKey": ""
+      "title": null,
+      "downloadLicenseKey": null
     },
     "dashboardCard": {
-      "showingCachedData": "",
-      "uptime": "",
+      "showingCachedData": null,
+      "uptime": null,
       "buttons": {
-        "manageServer": "",
-        "detailsServer": ""
+        "manageServer": null,
+        "detailsServer": null
       }
     },
     "overviewCard": {
-      "title": ""
+      "title": null
     },
     "managementCard": {
-      "title": "",
-      "accessibleUrls": "",
-      "accessibleUrlsHelp": "",
-      "inaccessibleUrls": ""
+      "tooltip": {
+        "heading": null
+      },
+      "title": null,
+      "accessibleUrls": null,
+      "accessibleUrlsHelp": null,
+      "inaccessibleUrls": null,
+      "noUrls": null
     },
     "storageCard": {
-      "free": "",
-      "used": "",
-      "title": ""
+      "title": null,
+      "used": null,
+      "free": null
     },
     "virtualMachinesCard": {
-      "title": "",
-      "installed": "",
-      "started": ""
+      "title": null,
+      "installed": null,
+      "started": null
     }
   },
   "commonServerDetails": {
     "status": {
-      "offline": "",
-      "online": ""
+      "offline": null,
+      "online": null
     },
-    "keyType": "",
-    "connect": ""
+    "keyType": null,
+    "connect": null
   },
   "pages": {
     "iframe": {
-      "useIframe": "",
-      "useExternal": "",
-      "closeIFrame": "",
-      "closeIFrameNote": ""
+      "useIframe": null,
+      "closeIFrame": null,
+      "closeIFrameNote": null
+    },
+    "gettingStarted": {
+      "firstStepsHeading": null,
+      "firstStepsContent": {
+        "stepOne": null,
+        "stepTwo": null,
+        "stepTwoSubheading": null,
+        "stepThree": null,
+        "stepFour": null
+      },
+      "mainHeading": null,
+      "helpfulLinksHeading": null
     },
     "headerOptions": {
-      "refreshFailureTitle": "",
-      "refreshFailureBody": "",
-      "refreshConfirmTitle": "",
-      "title": "",
-      "description": "",
-      "myUnraidDescription": "",
-      "headerUrlLinkDescription": "",
-      "headerCachedContainerDescription": "",
-      "buttonRefresh": ""
+      "refreshFailureTitle": null,
+      "refreshFailureBody": null,
+      "refreshConfirmTitle": null,
+      "title": null,
+      "description": null,
+      "myUnraidDescription": null,
+      "headerUrlLinkDescription": null,
+      "headerCachedContainerDescription": null,
+      "buttonRefresh": null
     },
     "account": {
-      "mainHeading": "",
-      "manageButton": ""
+      "mainHeading": null,
+      "manageButton": null
     },
     "dashboard": {
-      "mainHeading": "",
-      "signedInServerHeading": "",
-      "unregisteredServerHeading": ""
+      "mainHeading": null,
+      "unregisteredServerHeading": null
     },
     "keys": {
-      "mainHeading": "",
-      "mainSubheading": "",
-      "signedOutKeysHeading": "",
-      "signedInKeysHeading": ""
+      "mainHeading": null,
+      "mainSubheading": null,
+      "signedOutKeysHeading": null,
+      "signedInKeysHeading": null
     },
     "loading": {
-      "mainHeading": ""
+      "mainHeading": null
+    },
+    "notFound": {
+      "mainHeading": null
     }
   },
   "modalActions": {
-    "confirm": "",
-    "close": ""
+    "confirm": null,
+    "close": null
   },
   "sidebar": {
-    "open": ""
+    "open": null
+  },
+  "routes": {
+    "external": {
+      "deepLink": null
+    }
+  },
+  "unit": {
+    "s": null,
+    "m": null,
+    "h": null,
+    "d": null,
+    "y": null
   },
   "navigation": {
     "userActions": {
-      "signIn": "",
-      "signUp": ""
+      "signIn": null,
+      "signUp": null
     }
   }
 }

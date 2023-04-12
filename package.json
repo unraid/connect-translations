@@ -1,0 +1,28 @@
+{
+  "name": "connect-translations",
+  "version": "1.0.0",
+  "description": "translation files for connect web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "extract": "vue-i18n-extract report --vueFiles '../connect/src/**/*.?(js|vue|ts)' --languageFiles 'translations/*.?(json|yml|yaml|js)' --add --missingTranslationString=null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unraid/connect-translations.git"
+  },
+  "keywords": [
+    "i18n",
+    "translation",
+    "vue-i18n"
+  ],
+  "author": "Unraid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unraid/connect-translations/issues"
+  },
+  "homepage": "https://github.com/unraid/connect-translations#readme",
+  "dependencies": {
+    "vue-i18n-extract": "github:Spittal/vue-i18n-extract"
+  }
+}
