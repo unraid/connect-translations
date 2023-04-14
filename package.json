@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "extract": "vue-i18n-extract report --vueFiles '../connect/src/**/*.?(js|vue|ts)' --languageFiles 'translations/*.?(json|yml|yaml|js)' --add --missingTranslationString=null --separator=BLAHBLAHBLAHNOSEPARATORPLEASE"
+    "extract": "vue-i18n-extract"
   },
   "repository": {
     "type": "git",
