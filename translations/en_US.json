@@ -105,5 +105,6 @@
   "Manage %{server}": "Manage %{server}",
   "Unraid Connect": "Unraid Connect",
   "Server Dashboard": "Server Dashboard",
-  "Server Management": "Server Management"
+  "Server Management": "Server Management",
+  "Flash Backup": "Flash Backup"
 }

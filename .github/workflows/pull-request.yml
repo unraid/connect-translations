@@ -1,0 +1,14 @@
+name: Validate JSON
+on: [pull_request]
+
+jobs:
+  test-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+      - name: Validate JSON
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: schema.json
+          INPUT_JSONS: translations/de_DE.json,translations/en_US.json,translations/es_ES.json,translations/fr_FR.json,translations/zh_CN.json
