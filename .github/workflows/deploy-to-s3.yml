@@ -15,6 +15,7 @@ jobs:
       - name: Validate JSON
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
+          INPUT_SCHEMA: schema.json
           INPUT_JSONS: translations/**.json, test.json
 
       - uses: jakejarvis/s3-sync-action@master
