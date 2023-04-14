@@ -12,6 +12,10 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
+      - name: Validate JSON
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_JSONS: translations/**.json, test.json
 
       - uses: jakejarvis/s3-sync-action@master
         with:
