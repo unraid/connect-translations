@@ -1,155 +1,92 @@
 {
-  "widgets": {
-    "dockerCard": {
-      "title": null,
-      "installed": null,
-      "started": null,
-      "containerListTitle": null
-    },
-    "dynamicRemoteAccessCard": {
-      "statusDisabled": null,
-      "statusEnabled": null,
-      "isNotNecessary": null,
-      "disable": null,
-      "noteUpnp": null,
-      "noteOther": null,
-      "loadingDisable": null,
-      "loadingEnable": null,
-      "enable": null
-    },
-    "flashBackup": {
-      "disabled": null,
-      "date": null,
-      "title": {
-        "loading": null,
-        "error": null,
-        "success": null,
-        "default": null
-      },
-      "description": {
-        "loading": null,
-        "error": null,
-        "success": null,
-        "default": null
-      }
-    },
-    "licenseKeyCard": {
-      "title": null,
-      "downloadLicenseKey": null
-    },
-    "dashboardCard": {
-      "showingCachedData": null,
-      "uptime": null,
-      "buttons": {
-        "manageServer": null,
-        "detailsServer": null
-      }
-    },
-    "overviewCard": {
-      "title": null
-    },
-    "managementCard": {
-      "tooltip": {
-        "heading": null
-      },
-      "title": null,
-      "accessibleUrls": null,
-      "accessibleUrlsHelp": null,
-      "inaccessibleUrls": null,
-      "noUrls": null
-    },
-    "storageCard": {
-      "title": null,
-      "used": null,
-      "free": null
-    },
-    "virtualMachinesCard": {
-      "title": null,
-      "installed": null,
-      "started": null
-    }
-  },
-  "commonServerDetails": {
-    "status": {
-      "offline": null,
-      "online": null
-    },
-    "keyType": null,
-    "connect": null
-  },
-  "pages": {
-    "iframe": {
-      "useIframe": null,
-      "closeIFrame": null,
-      "closeIFrameNote": null
-    },
-    "gettingStarted": {
-      "firstStepsHeading": null,
-      "firstStepsContent": {
-        "stepOne": null,
-        "stepTwo": null,
-        "stepTwoSubheading": null,
-        "stepThree": null,
-        "stepFour": null
-      },
-      "mainHeading": null,
-      "helpfulLinksHeading": null
-    },
-    "headerOptions": {
-      "refreshFailureTitle": null,
-      "refreshFailureBody": null,
-      "refreshConfirmTitle": null,
-      "title": null,
-      "description": null,
-      "myUnraidDescription": null,
-      "headerUrlLinkDescription": null,
-      "headerCachedContainerDescription": null,
-      "buttonRefresh": null
-    },
-    "account": {
-      "mainHeading": null,
-      "manageButton": null
-    },
-    "dashboard": {
-      "mainHeading": null,
-      "unregisteredServerHeading": null
-    },
-    "keys": {
-      "mainHeading": null,
-      "mainSubheading": null,
-      "signedOutKeysHeading": null,
-      "signedInKeysHeading": null
-    },
-    "loading": {
-      "mainHeading": null
-    },
-    "notFound": {
-      "mainHeading": null
-    }
-  },
-  "modalActions": {
-    "confirm": null,
-    "close": null
-  },
-  "sidebar": {
-    "open": null
-  },
-  "routes": {
-    "external": {
-      "deepLink": null
-    }
-  },
-  "unit": {
-    "s": null,
-    "m": null,
-    "h": null,
-    "d": null,
-    "y": null
-  },
-  "navigation": {
-    "userActions": {
-      "signIn": null,
-      "signUp": null
-    }
-  }
+  "Docker Apps": null,
+  "Installed": null,
+  "Started": null,
+  "Containers": null,
+  "Currently Disabled": null,
+  "Active: %{version}": null,
+  "Dynamic Remote Access is enabled, but not required for this server to be managed from your current location.": null,
+  "Flash Backup Disabled": null,
+  "Last Flash Backup: %{date}": null,
+  "License Key": null,
+  "Offline": null,
+  "Key Type": null,
+  "Download": null,
+  "Showing Cached Values": null,
+  "Uptime: %{uptime}": null,
+  "Connect": null,
+  "Manage": null,
+  "Details": null,
+  "{name} overview": null,
+  "Online": null,
+  "Url Details": null,
+  "Manage Server": null,
+  "Manage in Connect": null,
+  "These URLs are currently accessible from your location. This means they are using a myunraid.net cerificate, and are running the latest Unraid Connect plugin.": null,
+  "Inaccessible URLs": null,
+  "No URLs available for this server. Please make sure the Connect plugin is running and the server is fully signed in.": null,
+  "Accessible URLs": null,
+  "Storage": null,
+  "Virtual Machines": null,
+  "Close Management View": null,
+  "Are you sure you wish to close this page? All unsaved progress will be lost.": null,
+  "Confirm": null,
+  "Open": null,
+  "Close": null,
+  "Sidebar": null,
+  "Used": null,
+  "Free": null,
+  "View in Unraid": null,
+  "Adding a Server to Unraid Connect": null,
+  "Download Connect from Community Apps": null,
+  "Sign In With Your Unraid.net Credentials": null,
+  "Click the top right corner of your Unraid server, and click Sign In. Follow the prompts to sign in with your Unraid.net credentials, or create a new account.": null,
+  "Register Your Server with Unraid Connect by following the prompts": null,
+  "Come Back to This Page and Click Continue": null,
+  "Continue": null,
+  "%{name}: Failed to Refresh Header Image": null,
+  "Could not fetch a header image for this server, are you sure it has one set and is online": null,
+  "%{name}: Successfully Refreshed Header Image": null,
+  "Configure Header Image for %{name}": null,
+  "Set the header image in your servers Web GUI at [Settings → Display Settings → Show banner (set to Yes) → Custom banner (upload your image)].": null,
+  "To use a custom image for your server, the server must be accessible through a myunraid.net domain.": null,
+  "Click the link below to try to navigate to the display settings page using the last available server URL": null,
+  "Header images are cached once loaded and will not be refreshed until you click the button below.": null,
+  "Refresh Header Image": null,
+  "second | seconds": null,
+  "minute | minutes": null,
+  "hour | hours": null,
+  "day | days": null,
+  "year | years": null,
+  "Stop": null,
+  "Remote Access": null,
+  "Note": null,
+  "Unraid will disallow remote access as soon as this action completes.": null,
+  "When using UPNP Remote Access, it may take a few minutes for your router to remove the lease.": null,
+  "Enabling": null,
+  "Disabling": null,
+  "Start": null,
+  "Generating…please wait…": null,
+  "Error Generating Flash Backup": null,
+  "Re-download Flash Backup": null,
+  "Generate Backup": null,
+  "Generating flash backup…": null,
+  "Error generating flash backup": null,
+  "Your download zip should have automatically downloaded. But you can download again if needed.\n      Download link expires at %{downloadExpireTime}.\n      Once expired just click the button again to get a new download link.": null,
+  "Click the button to download a flash backup for this server. You can restore this backup by copying the files onto your boot drive. Once generated the download link will expire in 60 seconds.": null,
+  "Account Management": null,
+  "Manage Account (account.unraid.net)": null,
+  "Sign In": null,
+  "Sign Up": null,
+  "My Servers": null,
+  "%{number} License Key Not Registered With Connect | %{number} License Keys Not Registered With Connect": null,
+  "My Keys": null,
+  "Getting Started": null,
+  "Helpful Links": null,
+  "Loading": null,
+  "Use this page to download license keys for your active and inactive servers. These can be used to transfer Unraid to a new flash drive and view all copies of Unraid registered to your email.": null,
+  "Signed Out Keys (Possibly available for use on other servers).": null,
+  "Signed In Keys (Servers are currently signed in to Connect)": null,
+  "This Page Could Not Be Found": null,
+  "Your download zip should have automatically downloaded. But you can download again if needed. Download link expires at %{downloadExpireTime}. Once expired just click the button again to get a new download link.": null
 }

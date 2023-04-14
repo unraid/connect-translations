@@ -1,191 +1,109 @@
 {
-  "commonServerDetails": {
-    "connect": "Connect",
-    "keyType": "Key Type",
-    "status": {
-      "offline": "Offline",
-      "online": "Online",
-      "signedIn": "Signed In",
-      "signedOut": "Signed Out"
-    }
-  },
-  "unit": {
-    "h": "hour | hours",
-    "m": "minute | minutes",
-    "s": "second | seconds",
-    "d": "day | days",
-    "y": "year | years"
-  },
-  "modalActions": {
-    "confirm": "Confirm",
-    "cancel": "Cancel",
-    "close": "Close"
-  },
-  "getStarted": "Get Started",
-  "navigation": {
-    "servers": {
-      "offline": "@:commonServerDetails.status.offline Servers",
-      "online": "@:commonServerDetails.status.online Servers"
-    },
-    "userActions": {
-      "signIn": "Sign In",
-      "signOut": "Sign Out",
-      "signUp": "Sign Up"
-    }
-  },
-  "pages": {
-    "dashboard": {
-      "mainHeading": "My Servers",
-      "signedInServerHeading": "@:commonServerDetails.status.signedIn Servers",
-      "unregisteredServerHeading": "%{number} License Keys Not Registered With Connect"
-    },
-    "iframe": {
-      "heading": "Manage Server",
-      "useExternal": "New Window",
-      "useIframe": "Manage",
-      "closeIFrame": "Close Management View",
-      "closeIFrameNote": "Are you sure you wish to close this page? All unsaved progress will be lost."
-    },
-    "keys": {
-      "mainHeading": "My Keys",
-      "mainSubheading": "Use this page to download license keys for your active and inactive servers. These can be used to transfer Unraid to a new flash drive and view all copies of Unraid registered to your email.",
-      "signedInKeysHeading": "@:commonServerDetails.status.signedIn Keys (Servers are currently signed in to Connect)",
-      "signedOutKeysHeading": "@:commonServerDetails.status.signedOut Keys (Possibly available for use on other servers)."
-    },
-    "loading": {
-      "mainHeading": "Loading"
-    },
-    "account": {
-      "mainHeading": "Account Management",
-      "manageButton": "Manage Account (account.unraid.net)"
-    },
-    "headerOptions": {
-      "title": "Configure Header for %{name}",
-      "description": "Set the header image in your servers Web GUI at [Settings → Display Settings → Show banner (set to Yes) → Custom banner (upload your image)].",
-      "myUnraidDescription": "To use a custom image for your server, the server must be accessible through a myunraid.net domain.",
-      "headerUrlLinkDescription": "Click the link below to try to navigate to the display settings page using the last available server URL",
-      "headerCachedContainerDescription": "Header images are cached once loaded and will not be refreshed until you click the button below.",
-      "buttonRefresh": "Refresh Header Image",
-      "refreshConfirmTitle": "%{name}: Successfully Refreshed Header Image",
-      "refreshFailureTitle": "%{name}: Failed to Refresh Header Image",
-      "refreshFailureBody": "Could not fetch a header image for this server, are you sure it has one set and is online"
-    },
-    "notFound": {
-      "mainHeading": "This Page Could Not Be Found"
-    },
-    "gettingStarted": {
-      "mainHeading": "Getting Started",
-      "firstStepsHeading": "Adding a Server to Unraid Connect",
-      "firstStepsContent": {
-        "stepOne": "Download Connect from Community Apps",
-        "stepTwo": "Sign In With Your Unraid.net Credentials",
-        "stepTwoSubheading": "Click the top right corner of your Unraid server, and click Sign In. Follow the prompts to sign in with your Unraid.net credentials, or create a new account.",
-        "stepThree": "Register Your Server with Unraid Connect by following the prompts",
-        "stepFour": "Come Back to This Page and Click Continue"
-      },
-      "helpfulLinksHeading": "Helpful Links"
-    }
-  },
-  "widgets": {
-    "dashboardCard": {
-      "buttons": {
-        "detailsServer": "Details",
-        "manageServer": "Manage"
-      },
-      "showingCachedData": "Showing Cached Values",
-      "uptime": "Uptime: %{uptime}"
-    },
-    "flashBackup": {
-      "date": "Last Flash Backup: %{date}",
-      "description": {
-        "default": "Click the button to download a flash backup for this server. You can restore this backup by copying the files onto your boot drive. Once generated the download link will expire in 60 seconds.",
-        "error": "Error generating flash backup",
-        "loading": "Generating flash backup… | Wow you made it go faster…🚅 | Click again for hyperspeed…",
-        "success": "Your download zip should have automatically downloaded. But you can download again if needed.\nDownload link expires at %{downloadExpireTime}.\nOnce expired just click the button again to get a new download link."
-      },
-      "title": {
-        "default": "Generate Backup",
-        "error": "Error Generating Flash Backup",
-        "loading": "Generating…please wait…",
-        "success": "Re-download Flash Backup"
-      },
-      "disabled": "Flash Backup Disabled"
-    },
-    "managementCard": {
-      "title": "@:pages.iframe.heading",
-      "description": "Click to manage your server",
-      "accessibleUrls": "Manage in Connect | Accessible URLs",
-      "accessibleUrlsHelp": "These URLs are currently accessible from your location. This means they are using a myunraid.net cerificate, and are running the latest Unraid Connect plugin.",
-      "inaccessibleUrls": "Inaccessible URLs",
-      "inaccessibleUrlsHelp": "These URLs are currently inaccessible from your location. This means they may be offline, not using a myunraid.net certificate, or are inaccessible from your current location. These URLs may still allow access to the server, however.",
-      "noUrls": "No URLs available for this server. Please make sure the Connect plugin is running and the server is fully signed in.",
-      "tooltip": {
-        "heading": "Url Details",
-        "type": "Type",
-        "name": "Name"
-      }
-    },
-    "overviewCard": {
-      "title": "{name} overview"
-    },
-    "storageCard": {
-      "title": "Storage",
-      "free": "Free",
-      "used": "Used"
-    },
-    "virtualMachinesCard": {
-      "title": "Virtual Machines",
-      "started": "Started",
-      "installed": "Installed"
-    },
-    "dockerCard": {
-      "title": "Docker Apps",
-      "containerListTitle": "Containers",
-      "started": "@:widgets.virtualMachinesCard.started",
-      "installed": "@:widgets.virtualMachinesCard.installed"
-    },
-    "licenseKeyCard": {
-      "title": "License Key",
-      "downloadLicenseKey": "Download License Key"
-    },
-    "dynamicRemoteAccessCard": {
-      "title": "Dynamic Remote Access (alpha)",
-      "statusDisabled": "Currently Disabled",
-      "statusEnabled": "Active: %{version}",
-      "enable": "Start Remote Access",
-      "disable": "Stop Remote Access",
-      "loadingEnable": "Enabling Remote Access...",
-      "loadingDisable": "Disabling Remote Access...",
-      "disableRemoteAccessNote": "Unraid will disallow remote access as soon as this action completes.",
-      "mayNotDisableImmediatelyTooltip": "When using UPNP Remote Access, it may take a few minutes for your router to remove the lease.",
-      "noteUpnp": "Note: @:widgets.dynamicRemoteAccessCard.disableRemoteAccessNote @:widgets.dynamicRemoteAccessCard.mayNotDisableImmediatelyTooltip",
-      "noteOther": "Note: @:widgets.dynamicRemoteAccessCard.disableRemoteAccessNote",
-      "isNotNecessary": "Dynamic Remote Access is not required for this server to be managed from your current location."
-    }
-  },
-  "sidebar": {
-    "open": "Open Sidebar",
-    "close": "Close Sidebar"
-  },
-  "routes": {
-    "external": {
-      "account": "Manage Account",
-      "forums": "Unraid Forums",
-      "home": "Unraid Home",
-      "docs": "Unraid Docs",
-      "deepLink": "View in Unraid",
-      "discord": "Unraid Discord"
-    },
-    "internal": {
-      "notFound": "Page Not Found",
-      "serverDetails": "Server Details",
-      "serverManagement": "Server Management",
-      "myAccount": "My Account",
-      "signIn": "Sign In / Sign Up",
-      "myKeys": "My Keys",
-      "dashboard": "Dashboard",
-      "authorizing": "Loading User",
-      "gettingStarted": "Getting Started"
-    }
-  }
+  "Connect": "Connect",
+  "Key Type": "Key Type",
+  "Offline": "Offline",
+  "Online": "Online",
+  "hour | hours": "hour | hours",
+  "minute | minutes": "minute | minutes",
+  "second | seconds": "second | seconds",
+  "day | days": "day | days",
+  "year | years": "year | years",
+  "Confirm": "Confirm",
+  "Cancel": "Cancel",
+  "Open": "Open",
+  "Close": "Close",
+  "Sign In": "Sign In",
+  "Sign Out": "Sign Out",
+  "Sign Up": "Sign Up",
+  "My Servers": "My Servers",
+  "%{number} License Key Not Registered With Connect | %{number} License Keys Not Registered With Connect": "%{number} License Key Not Registered With Connect | %{number} License Keys Not Registered With Connect",
+  "Manage": "Manage",
+  "Close Management View": "Close Management View",
+  "Are you sure you wish to close this page? All unsaved progress will be lost.": "Are you sure you wish to close this page? All unsaved progress will be lost.",
+  "My Keys": "My Keys",
+  "Use this page to download license keys for your active and inactive servers. These can be used to transfer Unraid to a new flash drive and view all copies of Unraid registered to your email.": "Use this page to download license keys for your active and inactive servers. These can be used to transfer Unraid to a new flash drive and view all copies of Unraid registered to your email.",
+  "Signed In Keys (Servers are currently signed in to Connect)": "Signed In Keys (Servers are currently signed in to Connect)",
+  "Signed Out Keys (Possibly available for use on other servers).": "Signed Out Keys (Possibly available for use on other servers).",
+  "Loading": "Loading",
+  "Account Management": "Account Management",
+  "Manage Account (account.unraid.net)": "Manage Account (account.unraid.net)",
+  "Configure Header Image for %{name}": "Configure Header Image for %{name}",
+  "Set the header image in your servers Web GUI at [Settings → Display Settings → Show banner (set to Yes) → Custom banner (upload your image)].": "Set the header image in your servers Web GUI at [Settings → Display Settings → Show banner (set to Yes) → Custom banner (upload your image)].",
+  "To use a custom image for your server, the server must be accessible through a myunraid.net domain.": "To use a custom image for your server, the server must be accessible through a myunraid.net domain.",
+  "Click the link below to try to navigate to the display settings page using the last available server URL": "Click the link below to try to navigate to the display settings page using the last available server URL",
+  "Header images are cached once loaded and will not be refreshed until you click the button below.": "Header images are cached once loaded and will not be refreshed until you click the button below.",
+  "Refresh Header Image": "Refresh Header Image",
+  "%{name}: Successfully Refreshed Header Image": "%{name}: Successfully Refreshed Header Image",
+  "%{name}: Failed to Refresh Header Image": "%{name}: Failed to Refresh Header Image",
+  "Could not fetch a header image for this server, are you sure it has one set and is online": "Could not fetch a header image for this server, are you sure it has one set and is online",
+  "This Page Could Not Be Found": "This Page Could Not Be Found",
+  "Getting Started": "Getting Started",
+  "Adding a Server to Unraid Connect": "Adding a Server to Unraid Connect",
+  "Download Connect from Community Apps": "Download Connect from Community Apps",
+  "Sign In With Your Unraid.net Credentials": "Sign In With Your Unraid.net Credentials",
+  "Click the top right corner of your Unraid server, and click Sign In. Follow the prompts to sign in with your Unraid.net credentials, or create a new account.": "Click the top right corner of your Unraid server, and click Sign In. Follow the prompts to sign in with your Unraid.net credentials, or create a new account.",
+  "Register Your Server with Unraid Connect by following the prompts": "Register Your Server with Unraid Connect by following the prompts",
+  "Come Back to This Page and Click Continue": "Come Back to This Page and Click Continue",
+  "Continue": "Continue",
+  "Details": "Details",
+  "Showing Cached Values": "Showing Cached Values",
+  "Uptime: %{uptime}": "Uptime: %{uptime}",
+  "Last Flash Backup: %{date}": "Last Flash Backup: %{date}",
+  "Click the button to download a flash backup for this server. You can restore this backup by copying the files onto your boot drive. Once generated the download link will expire in 60 seconds.": "Click the button to download a flash backup for this server. You can restore this backup by copying the files onto your boot drive. Once generated the download link will expire in 60 seconds.",
+  "Error generating flash backup": "Error generating flash backup",
+  "Generating flash backup…": "Generating flash backup…",
+  "Your download zip should have automatically downloaded. But you can download again if needed.\nDownload link expires at %{downloadExpireTime}.\nOnce expired just click the button again to get a new download link.": "Your download zip should have automatically downloaded. But you can download again if needed.\nDownload link expires at %{downloadExpireTime}.\nOnce expired just click the button again to get a new download link.",
+  "Generate Backup": "Generate Backup",
+  "Error Generating Flash Backup": "Error Generating Flash Backup",
+  "Generating…please wait…": "Generating…please wait…",
+  "Re-download Flash Backup": "Re-download Flash Backup",
+  "Flash Backup Disabled": "Flash Backup Disabled",
+  "Manage Server": "Manage Server",
+  "Manage in Connect": "Manage in Connect",
+  "Inaccessible URLs": "Inaccessible URLs",
+  "Accessible URLs": "Accessible URLs",
+  "These URLs are currently accessible from your location. This means they are using a myunraid.net cerificate, and are running the latest Unraid Connect plugin.": "These URLs are currently accessible from your location. This means they are using a myunraid.net cerificate, and are running the latest Unraid Connect plugin.",
+  "These URLs are currently inaccessible from your location. This means they may be offline, not using a myunraid.net certificate, or are inaccessible from your current location. These URLs may still allow access to the server": "These URLs are currently inaccessible from your location. This means they may be offline, not using a myunraid.net certificate, or are inaccessible from your current location. These URLs may still allow access to the server.",
+  "No URLs available for this server. Please make sure the Connect plugin is running and the server is fully signed in.": "No URLs available for this server. Please make sure the Connect plugin is running and the server is fully signed in.",
+  "Url Details": "Url Details",
+  "{name} overview": "{name} overview",
+  "Storage": "Storage",
+  "Free": "Free",
+  "Used": "Used",
+  "Virtual Machines": "Virtual Machines",
+  "Started": "Started",
+  "Installed": "Installed",
+  "Docker Apps": "Docker Apps",
+  "Containers": "Containers",
+  "License Key": "License Key",
+  "Download": "Download",
+  "Dynamic Remote Access (alpha)": "Dynamic Remote Access (alpha)",
+  "Remote Access": "Remote Access",
+  "Currently Disabled": "Currently Disabled",
+  "Active: %{version}": "Active: %{version}",
+  "Stop": "Stop",
+  "Start": "Start",
+  "Enabling": "Enabling",
+  "Disabling": "Disabling",
+  "Unraid will disallow remote access as soon as this action completes.": "Unraid will disallow remote access as soon as this action completes.",
+  "When using UPNP Remote Access, it may take a few minutes for your router to remove the lease.": "When using UPNP Remote Access, it may take a few minutes for your router to remove the lease.",
+  "Note": "Note",
+  "Dynamic Remote Access is enabled, but not required for this server to be managed from your current location.": "Dynamic Remote Access is enabled, but not required for this server to be managed from your current location.",
+  "Sidebar": "Sidebar",
+  "Manage Account": "Manage Account",
+  "Unraid Forums": "Unraid Forums",
+  "Unraid Home": "Unraid Home",
+  "Unraid Docs": "Unraid Docs",
+  "Unraid Discord": "Unraid Discord",
+  "View in Unraid": "View in Unraid",
+  "Page Not Found": "Page Not Found",
+  "Server Details": "Server Details",
+  "Server Management": "Server Management",
+  "My Account": "My Account",
+  "Sign In / Sign Up": "Sign In / Sign Up",
+  "Dashboard": "Dashboard",
+  "Loading User": "Loading User",
+  "Your download zip should have automatically downloaded. But you can download again if needed.\n      Download link expires at %{downloadExpireTime}.\n      Once expired just click the button again to get a new download link.": null,
+  "Helpful Links": null,
+  "Your download zip should have automatically downloaded. But you can download again if needed. Download link expires at %{downloadExpireTime}. Once expired just click the button again to get a new download link.": null
 }
