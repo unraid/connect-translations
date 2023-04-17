@@ -107,5 +107,12 @@
   "Dynamic Remote Access (alpha)": null,
   "Server Management": null,
   "Flash Backup": null,
-  "View All Routes": null
+  "View All Routes": null,
+  "Refresh": null,
+  "Reload": null,
+  "New Tab": null,
+  "Connect Features": null,
+  "Navigating to %{pathname}": null,
+  "Replace this window": null,
+  "Open in New Tab": null
 }

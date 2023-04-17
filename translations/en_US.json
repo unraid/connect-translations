@@ -107,5 +107,12 @@
   "Server Dashboard": "Server Dashboard",
   "Server Management": "Server Management",
   "Flash Backup": "Flash Backup",
-  "View All Routes": "View All Routes"
+  "View All Routes": "View All Routes",
+  "Refresh": "Refresh",
+  "Reload": "Reload",
+  "New Tab": "New Tab",
+  "Connect Features": "Connect Features",
+  "Navigating to %{pathname}": "Navigating to %{pathname}",
+  "Replace this window": "Replace this window",
+  "Open in New Tab": "Open in New Tab"
 }

@@ -107,5 +107,12 @@
   "Dynamic Remote Access (alpha)": "Acceso remoto dinámico (alfa)",
   "Server Management": "Administración del servidor",
   "Flash Backup": "Copia de seguridad flash",
-  "View All Routes": null
+  "View All Routes": null,
+  "Refresh": null,
+  "Reload": null,
+  "New Tab": null,
+  "Connect Features": null,
+  "Navigating to %{pathname}": null,
+  "Replace this window": null,
+  "Open in New Tab": null
 }
