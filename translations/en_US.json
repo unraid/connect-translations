@@ -66,7 +66,7 @@
   "These URLs are currently inaccessible from your location. This means they may be offline, not using a myunraid.net certificate, or are inaccessible from your current location. These URLs may still allow access to the server": "These URLs are currently inaccessible from your location. This means they may be offline, not using a myunraid.net certificate, or are inaccessible from your current location. These URLs may still allow access to the server.",
   "No URLs available for this server. Please make sure the Connect plugin is running and the server is fully signed in.": "No URLs available for this server. Please make sure the Connect plugin is running and the server is fully signed in.",
   "Url Details": "Url Details",
-  "{name} overview": "{name} overview",
+  "%{name} overview": "%{name} overview",
   "Storage": "Storage",
   "Free": "Free",
   "Used": "Used",
@@ -114,5 +114,6 @@
   "Connect Features": "Connect Features",
   "Navigating to %{pathname}": "Navigating to %{pathname}",
   "Replace this window": "Replace this window",
-  "Open in New Tab": "Open in New Tab"
+  "Open in New Tab": "Open in New Tab",
+  "Upgrade Key": "Upgrade Key"
 }

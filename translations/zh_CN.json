@@ -17,7 +17,6 @@
   "Connect": null,
   "Manage": null,
   "Details": null,
-  "{name} overview": null,
   "Online": null,
   "Url Details": null,
   "Manage Server": null,
@@ -114,5 +113,7 @@
   "Connect Features": null,
   "Navigating to %{pathname}": null,
   "Replace this window": null,
-  "Open in New Tab": null
+  "Open in New Tab": null,
+  "Upgrade Key": null,
+  "%{name} overview": null
 }

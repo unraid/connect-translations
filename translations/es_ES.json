@@ -17,7 +17,6 @@
   "Connect": "Connect",
   "Manage": "Administrar",
   "Details": "Detalles",
-  "{name} overview": "Resumen {name}",
   "Online": "en línea",
   "Url Details": "Detalles de URL",
   "Manage Server": "Administrar servidor",
@@ -114,5 +113,7 @@
   "Connect Features": "Características de Connect",
   "Navigating to %{pathname}": "Navegando a %{pathname}",
   "Replace this window": "Reemplace esta ventana",
-  "Open in New Tab": "Abrir en una pestaña nueva"
+  "Open in New Tab": "Abrir en una pestaña nueva",
+  "Upgrade Key": null,
+  "%{name} overview": null
 }
