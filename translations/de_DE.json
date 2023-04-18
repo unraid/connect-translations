@@ -89,7 +89,7 @@
   "Download link expires at %{downloadExpireTime}.": "Ablauf Download Link: %{downloadExpireTime}.",
   "Once expired just click the button again to get a new download link.": "Nach Ablauf den Button erneut klicken um einen neuen Download Link zu erhalten.",
   "Manage %{server}": "Verwalte %{server}",
-  "These URLs are currently inaccessible from your location. This means they may be offline, not using a myunraid.net certificate, or are inaccessible from your current location. These URLs may still allow access to the server": "Diese URLs sind von deinem derzeitigen Standort nicht erreichbar. Dies beutet das sie möglicherweise offline oder kein myunraid.net Zertifikat verwenden. Diese URLs erlauben aber möglicherweise trotzdem Zugriff zum Server.",
+  "These URLs are currently inaccessible from your location. This means they may be offline, not using a myunraid.net certificate, or are inaccessible from your current location. These URLs may still allow access to the server": "Diese URLs sind von deinem derzeitigen Standort nicht erreichbar. Dies beutet das sie möglicherweise offline sind oder kein myunraid.net Zertifikat verwenden. Diese URLs erlauben aber möglicherweise trotzdem Zugriff zum Server.",
   "Unraid Connect": "Unraid Connect",
   "Sign Out": "Abmelden",
   "Dashboard": "Dashbaord",
