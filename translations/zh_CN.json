@@ -96,7 +96,6 @@
   "Loading User": null,
   "My Account": null,
   "Page Not Found": null,
-  "Server Dashboard": null,
   "Sign In / Sign Up": null,
   "Manage Account": null,
   "Unraid Discord": null,
@@ -115,5 +114,8 @@
   "Replace this window": null,
   "Open in New Tab": null,
   "Upgrade Key": null,
-  "%{name} overview": null
+  "%{name} overview": null,
+  "Server Details - %{name}": null,
+  "Server Details": null,
+  "Server Management - %{name}": null
 }

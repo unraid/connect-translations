@@ -96,7 +96,6 @@
   "Loading User": "Cargando usuario",
   "My Account": "Mi cuenta",
   "Page Not Found": "Página No Encontrada",
-  "Server Dashboard": "Panel del servidor",
   "Sign In / Sign Up": "Iniciar sesión / Regístrate",
   "Manage Account": "Administrar cuenta",
   "Unraid Discord": "Discord official de Unraid",
@@ -115,5 +114,8 @@
   "Replace this window": "Reemplace esta ventana",
   "Open in New Tab": "Abrir en una pestaña nueva",
   "Upgrade Key": null,
-  "%{name} overview": null
+  "%{name} overview": null,
+  "Server Details - %{name}": null,
+  "Server Details": null,
+  "Server Management - %{name}": null
 }

@@ -104,7 +104,6 @@
   "Helpful Links": "Helpful Links",
   "Manage %{server}": "Manage %{server}",
   "Unraid Connect": "Unraid Connect",
-  "Server Dashboard": "Server Dashboard",
   "Server Management": "Server Management",
   "Flash Backup": "Flash Backup",
   "View All Routes": "View All Routes",
@@ -115,5 +114,8 @@
   "Navigating to %{pathname}": "Navigating to %{pathname}",
   "Replace this window": "Replace this window",
   "Open in New Tab": "Open in New Tab",
-  "Upgrade Key": "Upgrade Key"
+  "Upgrade Key": "Upgrade Key",
+  "Server Details - %{name}": "Server Details - %{name}",
+  "Server Details": "Server Details",
+  "Server Management - %{name}": "Server Management - %{name}"
 }
