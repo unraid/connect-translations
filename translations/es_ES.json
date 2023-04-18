@@ -113,9 +113,9 @@
   "Navigating to %{pathname}": "Navegando a %{pathname}",
   "Replace this window": "Reemplace esta ventana",
   "Open in New Tab": "Abrir en una pestaña nueva",
-  "Upgrade Key": null,
-  "%{name} overview": null,
-  "Server Details - %{name}": null,
-  "Server Details": null,
-  "Server Management - %{name}": null
+  "Upgrade Key": "Actualice su licencia",
+  "%{name} overview": "Vista general %{name}",
+  "Server Details - %{name}": "Detalles del servidor - %{name}",
+  "Server Details": "Detalles del servidor",
+  "Server Management - %{name}": "Administración del servidor - %{name}"
 }
