@@ -22,7 +22,6 @@
   "Manage Server": "Administrar servidor",
   "Manage in Connect": "Administrar en Connect",
   "These URLs are currently accessible from your location. This means they are using a myunraid.net cerificate, and are running the latest Unraid Connect plugin.": "Actualmente se puede acceder a estas URL desde su ubicación. Esto significa que están usando un certificado myunraid.net y están ejecutando el último complemento Unraid Connect",
-  "Inaccessible URLs": "URL inaccesibles",
   "No URLs available for this server. Please make sure the Connect plugin is running and the server is fully signed in.": "No hay URL disponibles para este servidor. Asegúrese de que el complemento Connect se esté ejecutando y que el servidor haya iniciado sesión por completo",
   "Storage": "Almacenamiento",
   "Virtual Machines": "Máquinas virtuales",
@@ -117,5 +116,6 @@
   "%{name} overview": "Vista general %{name}",
   "Server Details - %{name}": "Detalles del servidor - %{name}",
   "Server Details": "Detalles del servidor",
-  "Server Management - %{name}": "Administración del servidor - %{name}"
+  "Server Management - %{name}": "Administración del servidor - %{name}",
+  "Manage in New Tab": null
 }

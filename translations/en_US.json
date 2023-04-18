@@ -61,7 +61,6 @@
   "Flash Backup Disabled": "Flash Backup Disabled",
   "Manage Server": "Manage Server",
   "Manage in Connect": "Manage in Connect",
-  "Inaccessible URLs": "Inaccessible URLs",
   "These URLs are currently accessible from your location. This means they are using a myunraid.net cerificate, and are running the latest Unraid Connect plugin.": "These URLs are currently accessible from your location. This means they are using a myunraid.net cerificate, and are running the latest Unraid Connect plugin.",
   "These URLs are currently inaccessible from your location. This means they may be offline, not using a myunraid.net certificate, or are inaccessible from your current location. These URLs may still allow access to the server": "These URLs are currently inaccessible from your location. This means they may be offline, not using a myunraid.net certificate, or are inaccessible from your current location. These URLs may still allow access to the server.",
   "No URLs available for this server. Please make sure the Connect plugin is running and the server is fully signed in.": "No URLs available for this server. Please make sure the Connect plugin is running and the server is fully signed in.",
@@ -117,5 +116,6 @@
   "Upgrade Key": "Upgrade Key",
   "Server Details - %{name}": "Server Details - %{name}",
   "Server Details": "Server Details",
-  "Server Management - %{name}": "Server Management - %{name}"
+  "Server Management - %{name}": "Server Management - %{name}",
+  "Manage in New Tab": "Manage in New Tab"
 }

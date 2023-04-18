@@ -22,7 +22,6 @@
   "Manage Server": null,
   "Manage in Connect": null,
   "These URLs are currently accessible from your location. This means they are using a myunraid.net cerificate, and are running the latest Unraid Connect plugin.": null,
-  "Inaccessible URLs": null,
   "No URLs available for this server. Please make sure the Connect plugin is running and the server is fully signed in.": null,
   "Storage": null,
   "Virtual Machines": null,
@@ -117,5 +116,6 @@
   "%{name} overview": null,
   "Server Details - %{name}": null,
   "Server Details": null,
-  "Server Management - %{name}": null
+  "Server Management - %{name}": null,
+  "Manage in New Tab": null
 }
