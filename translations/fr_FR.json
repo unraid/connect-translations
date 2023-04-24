@@ -37,7 +37,7 @@
   "Adding a Server to Unraid Connect": "Ajouter un serveur à Unraid Connect",
   "Download Connect from Community Apps": "Télécharger Connect depuis Community Apps",
   "Sign In With Your Unraid.net Credentials": "Connexion avec vos identifiants Unraid.net",
-  "Click the top right corner of your Unraid server, and click Sign In. Follow the prompts to sign in with your Unraid.net credentials, or create a new account.": null,
+  "Click the top right corner of your Unraid server, and click Sign In. Follow the prompts to sign in with your Unraid.net credentials, or create a new account.": "Cliquez sur le coin supérieur droit de votre serveur Unraid, puis sur <<Se connecter>>. Suivez les instructions pour vous connecter avec vos identifiants Unraid.net ou créer un nouveau compte.",
   "Register Your Server with Unraid Connect by following the prompts": "Enregistrez votre serveur avec Unraid Connect en suivant la procédure",
   "Come Back to This Page and Click Continue": "Retourner sur cette page et cliquer sur poursuivre",
   "Continue": "Poursuivre",
@@ -117,5 +117,6 @@
   "Server Details - %{name}": "Détails du serveur - %{name}",
   "Server Details": "Détails du serveur",
   "Server Management - %{name}": "Gestion du serveur - %{name}",
-  "Manage in New Tab": null
+  "Manage in New Tab": "gérer dans un nouvel onglet",
+
 }
