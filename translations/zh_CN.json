@@ -117,5 +117,15 @@
   "%{name} overview": "%{name} 概览",
   "Server Details - %{name}": "服务器详细信息 - %{name}",
   "Server Details": "服务器详细信息",
-  "Server Management - %{name}": "服务器管理 - %{name}"
+  "Server Management - %{name}": "服务器管理 - %{name}",
+  "Download Key": null,
+  "Hide": null,
+  "Show": null,
+  "Data timestamp": null,
+  "Refresh server routes": null,
+  "Manage in New Tab": null,
+  "These URLs are currently inaccessible from your location. This means they may be offline, not using a myunraid.net certificate, or are inaccessible from your current location. These URLs may still allow access to the server": null,
+  "Update your plugin in the Unraid WebGUI Plugins Tab to view more data": null,
+  "Sign In / Up with Unraid.net": null,
+  "Unraid Connect is the next evolution of My Servers. If you were previously using the My Servers plugin, please navigate to the Plugins tab on your server and update to the latest version.": null
 }

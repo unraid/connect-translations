@@ -117,5 +117,13 @@
   "Server Details - %{name}": "Détails du serveur - %{name}",
   "Server Details": "Détails du serveur",
   "Server Management - %{name}": "Gestion du serveur - %{name}",
-  "Manage in New Tab": "gérer dans un nouvel onglet"
+  "Manage in New Tab": "gérer dans un nouvel onglet",
+  "Download Key": null,
+  "Hide": null,
+  "Show": null,
+  "Data timestamp": null,
+  "Refresh server routes": null,
+  "Update your plugin in the Unraid WebGUI Plugins Tab to view more data": null,
+  "Sign In / Up with Unraid.net": null,
+  "Unraid Connect is the next evolution of My Servers. If you were previously using the My Servers plugin, please navigate to the Plugins tab on your server and update to the latest version.": null
 }
