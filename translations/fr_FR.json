@@ -117,6 +117,5 @@
   "Server Details - %{name}": "Détails du serveur - %{name}",
   "Server Details": "Détails du serveur",
   "Server Management - %{name}": "Gestion du serveur - %{name}",
-  "Manage in New Tab": "gérer dans un nouvel onglet",
-
+  "Manage in New Tab": "gérer dans un nouvel onglet"
 }
