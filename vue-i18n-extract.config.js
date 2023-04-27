@@ -5,7 +5,7 @@ module.exports = {
   "report": true,
   "output": false,
   "add": true,
-  "remove": true,
+  "remove": false,
   "ci": false,
   "separator": "BLAHBLAHBLAHNOSEPARATORPLEASE",
   "noEmptyTranslation": "",
