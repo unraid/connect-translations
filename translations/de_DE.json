@@ -113,13 +113,13 @@
   "Server Details - %{name}": "Server Details - %{name}",
   "Server Details": "Server Details",
   "Server Management - %{name}": "Server Verwaltung - %{name}",
-  "Manage in New Tab": null,
-  "Download Key": null,
-  "Hide": null,
-  "Show": null,
-  "Data timestamp": null,
-  "Refresh server routes": null,
-  "Update your plugin in the Unraid WebGUI Plugins Tab to view more data": null,
-  "Sign In / Up with Unraid.net": null,
-  "Unraid Connect is the next evolution of My Servers. If you were previously using the My Servers plugin, please navigate to the Plugins tab on your server and update to the latest version.": null
+  "Manage in New Tab": "In neuem Tab verwalten",
+  "Download Key": "Lizenz Herunterladen",
+  "Hide": "Verstecken",
+  "Show": "Anzeigen",
+  "Data timestamp": "Zeitstempel",
+  "Refresh server routes": "Aktualisiere Server Routen",
+  "Update your plugin in the Unraid WebGUI Plugins Tab to view more data": "Aktualisiere das Plugin im Plugins Tab der Unraid WebGUI um mehr Daten zu sehen",
+  "Sign In / Up with Unraid.net": "Mit Unraid.net Anmelden / Registrieren",
+  "Unraid Connect is the next evolution of My Servers. If you were previously using the My Servers plugin, please navigate to the Plugins tab on your server and update to the latest version.": "Unraid Connect ist die Weiterentwicklung von My Servers. Wenn derzeit das My Servers plugin verwendet wird, bitte gehe zum Plugins Tab der Unraid WebGUI und aktualisiere das Plugin auf die neueste Version."
 }
