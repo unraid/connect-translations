@@ -121,5 +121,22 @@
   "Refresh server routes": null,
   "Update your plugin in the Unraid WebGUI Plugins Tab to view more data": null,
   "Sign In / Up with Unraid.net": null,
-  "Unraid Connect is the next evolution of My Servers. If you were previously using the My Servers plugin, please navigate to the Plugins tab on your server and update to the latest version.": null
+  "Unraid Connect is the next evolution of My Servers. If you were previously using the My Servers plugin, please navigate to the Plugins tab on your server and update to the latest version.": null,
+  "URL Type": null,
+  "USB Flash GUID": null,
+  "Array": null,
+  "Select language preference": null,
+  "Light": null,
+  "Select light theme": null,
+  "Dark": null,
+  "Select dark theme": null,
+  "System": null,
+  "Select system theme": null,
+  "Select theme preference": null,
+  ": system prefers dark": null,
+  ": system prefers light": null,
+  "Disabling Remote Access": null,
+  "Enabling Remote Access": null,
+  "Stop Remote Access": null,
+  "Start Remote Access": null
 }

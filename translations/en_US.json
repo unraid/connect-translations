@@ -121,5 +121,22 @@
   "Refresh server routes": "Refresh server routes",
   "Update your plugin in the Unraid WebGUI Plugins Tab to view more data": "Update your plugin in the Unraid WebGUI Plugins Tab to view more data",
   "Sign In / Up with Unraid.net": "Sign In / Up with Unraid.net",
-  "Unraid Connect is the next evolution of My Servers. If you were previously using the My Servers plugin, please navigate to the Plugins tab on your server and update to the latest version.": "Unraid Connect is the next evolution of My Servers. If you were previously using the My Servers plugin, please navigate to the Plugins tab on your server and update to the latest version."
+  "Unraid Connect is the next evolution of My Servers. If you were previously using the My Servers plugin, please navigate to the Plugins tab on your server and update to the latest version.": "Unraid Connect is the next evolution of My Servers. If you were previously using the My Servers plugin, please navigate to the Plugins tab on your server and update to the latest version.",
+  "URL Type": "URL Type",
+  "USB Flash GUID": "USB Flash GUID",
+  "Array": "Array",
+  "Select language preference": "Select language preference",
+  "Light": "Light",
+  "Select light theme": "Select light theme",
+  "Dark": "Dark",
+  "Select dark theme": "Select dark theme",
+  "System": "System",
+  "Select system theme": "Select system theme",
+  "Select theme preference": "Select theme preference",
+  ": system prefers dark": ": system prefers dark",
+  ": system prefers light": ": system prefers light",
+  "Disabling Remote Access": "Disabling Remote Access",
+  "Enabling Remote Access": "Enabling Remote Access",
+  "Stop Remote Access": "Stop Remote Access",
+  "Start Remote Access": "Start Remote Access"
 }
