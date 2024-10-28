@@ -167,11 +167,11 @@
   "Take Your Unraid Server to the Next Level": "Lleve su servidor Unraid al siguiente nivel",
   "Your one-stop shop for server management, monitoring, and maintenance": "Tu herramienta todo en uno para administración, monitoreo y mantenimiento de servidores",
   "Unraid Connect FAQs": "Unraid Connect FAQs",
-  "Missing Translation?": null,
-  "Screenshot of Unraid\\'s webGUI on the Community Apps page showing the search result for Unraid Connect": null,
-  "Screenshot of Unraid\\'s webGUI showing an open user profile dropdown with the Sign In link": null,
-  "Screenshot of https://account.unraid.net\\'s Register Server page asking for confirmation to register your Unraid server with Unraid Connect": null,
-  "Please see our <a href=\"https://docs.unraid.net/category/unraid-connect\" target=\"_blank\" rel=\"noreferrer noopener\">detailed documentation</a>.": null,
-  "Use this page to manage flash backup for your servers. This allows you to download a backup of your server configuration and data.": null,
-  "Your keys have moved! Find your registered keys on your Unraid account.": null
+  "Missing Translation?": "¿Falta alguna traducción?",
+  "Screenshot of Unraid\\'s webGUI on the Community Apps page showing the search result for Unraid Connect": "Captura de pantalla de Unraid en la página de CommunityApps que muestra el resultado de la búsqueda de Unraid Connect",
+  "Screenshot of Unraid\\'s webGUI showing an open user profile dropdown with the Sign In link": "Captura de pantalla de Unraid que muestra un menú desplegable del perfil de usuario abierto con el enlace para iniciar sesión",
+  "Screenshot of https://account.unraid.net\\'s Register Server page asking for confirmation to register your Unraid server with Unraid Connect": "Captura de pantalla de la página de registro del servidor de https://account.unraid.net\\ que solicita confirmación para registrar su servidor con Unraid Connect",
+  "Please see our <a href=\"https://docs.unraid.net/category/unraid-connect\" target=\"_blank\" rel=\"noreferrer noopener\">detailed documentation</a>.": "Por favor, consulte la <a href=\"https://docs.unraid.net/category/unraid-connect\" target=\"_blank\" rel=\"noreferrer noopener\">documentación</a>.",
+  "Use this page to manage flash backup for your servers. This allows you to download a backup of your server configuration and data.": "Utilice esta página para administrar las copias de seguridad Flash de sus servidores. Esto le permite descargar una copia de seguridad de la configuración y los datos de su servidor.",
+  "Your keys have moved! Find your registered keys on your Unraid account.": "Tus claves se han movido. Encuentra tus claves registradas en tu cuenta de Unraid."
 }
